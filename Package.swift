@@ -25,6 +25,7 @@ let package = Package(
             path: "Sources"),
         .testTarget(
             name: "SwindlerTests",
-            dependencies: ["Swindler"]),
+            dependencies: ["Swindler"],
+            path: "SwindlerTests"),
     ]
 )
