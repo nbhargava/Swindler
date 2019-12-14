@@ -70,21 +70,21 @@ class TestUIElement: UIElementType, Hashable {
 
     func pid() throws -> pid_t { return processID }
     func attribute<T>(_ attr: Attribute) throws -> T? {
-        if throwInvalid { throw AXSwift.AXError.invalidUIElement }
+        if throwInvalid { throw AXError.invalidUIElement }
         if let value = attrs[attr] {
             return (value as! T)
         }
         return nil
     }
     func arrayAttribute<T>(_ attr: Attribute) throws -> [T]? {
-        if throwInvalid { throw AXSwift.AXError.invalidUIElement }
+        if throwInvalid { throw AXError.invalidUIElement }
         guard let value = attrs[attr] else {
             return nil
         }
         return (value as! [T])
     }
     func getMultipleAttributes(_ attributes: [AXSwift.Attribute]) throws -> [Attribute: Any] {
-        if throwInvalid { throw AXSwift.AXError.invalidUIElement }
+        if throwInvalid { throw AXError.invalidUIElement }
         var result: [Attribute: Any] = [:]
         for attr in attributes {
             result[attr] = attrs[attr]
@@ -92,7 +92,7 @@ class TestUIElement: UIElementType, Hashable {
         return result
     }
     func setAttribute(_ attr: Attribute, value: Any) throws {
-        if throwInvalid { throw AXSwift.AXError.invalidUIElement }
+        if throwInvalid { throw AXError.invalidUIElement }
         attrs[attr] = value
     }
 
