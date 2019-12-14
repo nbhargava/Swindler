@@ -1,6 +1,10 @@
 import AXSwift
 import PromiseKit
 
+import AppKit
+import Foundation
+import UIKit
+
 // MARK: - Application
 
 /// A running application.

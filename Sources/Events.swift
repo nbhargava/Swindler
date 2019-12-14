@@ -1,6 +1,11 @@
 /// The protocol for all event structs.
 ///
 /// Usually not used directly. Used as a bound by `State.on(...)`.
+
+import AppKit
+import Foundation
+import UIKit
+
 public protocol EventType {
     /// All events are marked as internal or external. Internal events were caused via Swindler,
     /// external events were not.

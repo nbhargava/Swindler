@@ -12,6 +12,10 @@
 import AXSwift
 import PromiseKit
 
+import AppKit
+import Foundation
+import UIKit
+
 fileprivate typealias AppElement = EmittingTestApplicationElement
 
 public class FakeState {

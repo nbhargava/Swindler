@@ -1,5 +1,9 @@
 import PromiseKit
 
+import AppKit
+import Foundation
+import UIKit
+
 // MARK: - Screen
 
 /// A physical display.

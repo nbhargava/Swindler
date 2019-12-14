@@ -6,6 +6,10 @@
 
 import AXSwift
 
+import AppKit
+import Foundation
+import UIKit
+
 /// A dictionary of AX attributes.
 ///
 /// This struct models redundancies in the data model (frame, position, and

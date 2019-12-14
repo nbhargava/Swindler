@@ -4,6 +4,10 @@
 
 import PromiseKit
 
+import AppKit
+import Foundation
+import UIKit
+
 /** Waits on all provided promises, then resolves to the result of the successful ones.
 - Param onError: A callback that is called each time any promise fails, with the index of the
                  promise and the error.
