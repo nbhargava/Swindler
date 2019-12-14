@@ -1,6 +1,7 @@
 import PromiseKit
 
 import AppKit
+import ApplicationServices
 import Foundation
 
 // MARK: - Screen

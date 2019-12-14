@@ -1,4 +1,5 @@
 import AppKit
+import ApplicationServices
 import Foundation
 
 // This file defines protocols that wrap classes in AXSwift, so we can inject fakes while testing.

@@ -13,6 +13,7 @@ import AXSwift
 import PromiseKit
 
 import AppKit
+import ApplicationServices
 import Foundation
 
 fileprivate typealias AppElement = EmittingTestApplicationElement

@@ -7,6 +7,7 @@
 import AXSwift
 
 import AppKit
+import ApplicationServices
 import Foundation
 
 /// A dictionary of AX attributes.

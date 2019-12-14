@@ -5,7 +5,7 @@
 import PromiseKit
 
 import AppKit
-import Cocoa
+import ApplicationServices
 import Foundation
 
 /** Waits on all provided promises, then resolves to the result of the successful ones.

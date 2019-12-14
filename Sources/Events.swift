@@ -3,6 +3,7 @@
 /// Usually not used directly. Used as a bound by `State.on(...)`.
 
 import AppKit
+import ApplicationServices
 import Foundation
 
 public protocol EventType {

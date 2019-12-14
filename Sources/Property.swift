@@ -2,6 +2,7 @@ import AXSwift
 import PromiseKit
 
 import AppKit
+import ApplicationServices
 import Foundation
 
 /// A PropertyNotifier handles property events and directs them to the right place.

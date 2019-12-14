@@ -2,6 +2,7 @@ import AXSwift
 import PromiseKit
 
 import AppKit
+import ApplicationServices
 import Foundation
 
 /// Implements PropertyDelegate using the AXUIElement API.

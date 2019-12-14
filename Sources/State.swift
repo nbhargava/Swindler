@@ -2,6 +2,7 @@ import AXSwift
 import PromiseKit
 
 import AppKit
+import ApplicationServices
 import Foundation
 
 /// Initializes a new Swindler state and returns it in a Promise.
