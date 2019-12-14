@@ -1,6 +1,5 @@
 import AppKit
 import Foundation
-import UIKit
 
 /// Internal logger.
 internal private(set) var log = Log()

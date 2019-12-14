@@ -4,7 +4,6 @@
 
 import AppKit
 import Foundation
-import UIKit
 
 public protocol EventType {
     /// All events are marked as internal or external. Internal events were caused via Swindler,

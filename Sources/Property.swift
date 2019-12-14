@@ -3,7 +3,6 @@ import PromiseKit
 
 import AppKit
 import Foundation
-import UIKit
 
 /// A PropertyNotifier handles property events and directs them to the right place.
 protocol PropertyNotifier: class {

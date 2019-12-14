@@ -3,7 +3,6 @@ import PromiseKit
 
 import AppKit
 import Foundation
-import UIKit
 
 enum OSXDriverError: Error {
     case missingAttribute(attribute: AXSwift.Attribute, onElement: Any)

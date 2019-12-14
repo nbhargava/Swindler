@@ -8,7 +8,6 @@ import AXSwift
 
 import AppKit
 import Foundation
-import UIKit
 
 /// A dictionary of AX attributes.
 ///

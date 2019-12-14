@@ -14,7 +14,6 @@ import PromiseKit
 
 import AppKit
 import Foundation
-import UIKit
 
 fileprivate typealias AppElement = EmittingTestApplicationElement
 

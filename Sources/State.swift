@@ -3,7 +3,6 @@ import PromiseKit
 
 import AppKit
 import Foundation
-import UIKit
 
 /// Initializes a new Swindler state and returns it in a Promise.
 public func initialize() -> Promise<State> {
