@@ -22,7 +22,7 @@ let package = Package(
         .target(
             name: "Swindler",
             dependencies: ["AXSwift"],
-            sources: ["Sources/"]),
+            path: "Sources"),
         .testTarget(
             name: "SwindlerTests",
             dependencies: ["Swindler"]),
